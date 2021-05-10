@@ -1,0 +1,32 @@
+1) A cosa serve il comando npm init?
+-Creare un file package.json per l'applicazione
+
+2) Cos’è l’entry point dell’applicazione?
+-il centro l'applicazione
+
+3) Cos’è il file package.json?
+- Contiene alcune informazioni (meta-dati) sulla nostra applicazione
+
+4) A cosa serve la voce dependencies del file package.json?
+    servono a far si che il comando npm install installi tutti i moduli necessari
+
+5) A cosa serve il comando require in Node?
+    serve per caricare i moduli e permettere l'accesso ad essi.
+
+6) A cosa serve il metodo get della libreria express?
+    serve per fare richieste all'URL root(/)
+
+7) A cosa serve il metodo listen della libreria express?
+    dice di andare sulla porta 3000 ed di eseguire la funzione function messa prima quindi per quindi per questo riusciamo a vedere "hello world"
+
+8) Quanti e quali parametri necessita la funzione get della libreria express?
+    req e res
+
+9) A cosa serve il parametro res della funzione passata come parametro al metodo get?
+    serve per restituire quello che si vuole
+
+10) A cosa serve il metodo send del parametro res?
+    inviare una risposta di quello che gli abbiamo detto come return della funzione
+    
+
+
