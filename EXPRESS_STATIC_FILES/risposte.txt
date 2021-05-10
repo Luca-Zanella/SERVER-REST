@@ -1,0 +1,16 @@
+1) A cosa serve il metodo sendFile(nomefile) del parametro res della funzione get?
+    -per far vedere un file al posto di una semplice scritta così si può giocare con l'html
+
+2) E’ possibile passare ad Express un percorso relativo di un file statico?
+    vuole esattamente il percorso è per questo che dobbiano richiedere la path
+
+3)  cosa serve il metodo join del modulo path? (es: path.join(__dirname,'about.html'))
+    serve per unire il file html alla path del file
+
+4) A cosa serve specificare un valore nel primo parametro del metodo app.get della libreria express?
+    per poi poterlo utilizzare quando ci pare
+
+5) Cosa riceve come parametri il metodo app.get(p1, p2);
+In particolare cos’è p2?
+
+p1 è la richiesta che facciamo se serve p2 è la risposta che ci viene data
